@@ -1,8 +1,9 @@
+import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
     return (
         <div>
-            main broooooo
+            <Outlet/>
         </div>
     );
 };
